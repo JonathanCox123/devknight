@@ -1,0 +1,9 @@
+body{
+    background: #d5d5d5;
+    background: url(../img/background-crystal.png) #f3fbff;
+}
+
+.home-loading{
+    height:500px;
+    background:black;
+}
