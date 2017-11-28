@@ -1,9 +1,46 @@
 body{
     background: #d5d5d5;
     background: url(../img/background-crystal.png) #f3fbff;
+    position: relative;
+    margin: 0 auto;
+    height:100vh;
+}
+
+
+/** Home **/
+
+section#home{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#home-title{
+    text-align:center;
+}
+
+#home-title #logo{
+    font-family: 'Teko', sans-serif;
+    font-size:64px;
+}
+
+#home-title #logo span{
+    color:#00adff
+}
+
+#panels-container{
+    margin-top:50px;
 }
 
 .home-loading{
     height:500px;
+    min-width:350px;
+    padding: 15px;
+}
+
+.home-loading .panel{
     background:black;
+    height:100%;
+    width: 100%;
 }
